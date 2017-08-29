@@ -22,12 +22,12 @@ function johnLennonFacts(facts){
 function iLoveTheBeatles(number){
   var counter=0;
   var array = new Array();
-  
+
   do{
-    
+
     array.push("I love the Beatles!")
     counter++;
   }while(counter<number && number<=15);
-  
+
   return array;
 }
