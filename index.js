@@ -24,10 +24,9 @@ function iLoveTheBeatles(number){
   var array = new Array();
 
   do{
-
     array.push("I love the Beatles!")
     counter++;
-  }while(counter<number && number<=15);
+  }while(counter<number);
 
   return array;
 }
